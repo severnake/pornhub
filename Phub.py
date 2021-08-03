@@ -49,7 +49,7 @@ async def time_to_seconds(time):
 )
 async def start(_, message):
     m= await message.reply_text(
-        text = "Hi Iam Tg_PHub_Bot.You can Download Videos from PHub upto 1080p !"
+        text = "**HEYY GUYS😍!**\n\n`PRESENTING U A FIRST EVER  PORN HUB BOT 💦🙈`\n\n`IN TELEGRAM💦😍Simple search the pornstar name and u get result🙈!`"
        )
 
 # Help-------------------------------------------------------------------------
@@ -58,26 +58,26 @@ async def start(_, message):
 )
 async def help(_, message):
     await message.reply_text(
-        """**Below are My Commands...**
+        """**COMMANDS**
 /help To Show This Message.
-/repo To Get the Repo.
+/support Bot Support Chat.
 
 To Search in PHub just simply Type something"""
     )
     
 # Repo  -----------------------------------------------------------------------
 @app.on_message(
-    filters.command("repo") & ~filters.edited
+    filters.command("support") & ~filters.edited
 )
-async def repo(_, message):
+async def support(_, message):
     m= await message.reply_text(
-        text="""[Tg_PHub_Bot Repo](https://github.com/Devanagaraj/Tg_PHub_Bot) | [Support Group](https://t.me/PatheticProgrammers)""",
+        text="""[Support](t.me/pornhbchat)""",
         disable_web_page_preview=True
        )
 
 # Let's Go----------------------------------------------------------------------
 @app.on_message(
-    filters.private & ~filters.edited & ~filters.command("help") & ~filters.command("start") & ~filters.command("repo")
+    filters.private & ~filters.edited & ~filters.command("help") & ~filters.command("start") & ~filters.command("support")
     )
 async def sarch(_,message):
     try:
