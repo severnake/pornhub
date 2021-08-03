@@ -49,7 +49,7 @@ async def time_to_seconds(time):
 )
 async def start(_, message):
     m= await message.reply_text(
-        text = "**HEYY GUYS😍!**\n\n`PRESENTING U A FIRST EVER  PORN HUB BOT 💦🙈`\n\n`IN TELEGRAM💦😍Simple search the pornstar name and u get result🙈!`"
+        text = "**HEYY GUYS😍!**\n\n`PRESENTING U A FIRST EVER  PORN HUB BOT 💦🙈`\n\n`IN TELEGRAM💦😍Simple search the pornstar name and u get result🙈`[!](https://telegra.ph/file/03afb71123833b27a8b3f.jpg)"
        )
 
 # Help-------------------------------------------------------------------------
